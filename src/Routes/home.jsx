@@ -7,7 +7,6 @@ import Institute from "../section/institute";
 import Podcast from "../section/podcast";
 import Contact from "../section/contact";
 import Footer from "../section/footer";
-import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 export default function Home() {
