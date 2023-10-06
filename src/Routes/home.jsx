@@ -7,15 +7,9 @@ import Institute from "../section/institute";
 import Podcast from "../section/podcast";
 import Contact from "../section/contact";
 import Footer from "../section/footer";
-import AOS from 'aos';
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration (in milliseconds)
-      easing: 'ease-in-out', // Animation easing
-    });
-  }, []);
+ 
   return (
     <>
       <div className="flex flex-col items-center">
