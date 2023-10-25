@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function HorizontalCard(props) {
+  
   return (
     <>
       <a
@@ -14,15 +15,11 @@ export default function HorizontalCard(props) {
         />
         <div class="flex flex-col justify-between p-4 leading-normal">
           <h5 class=" text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            John Doe
+            {props.name}
           </h5>
           <p>Position : Precident</p>
           <blockquote class="italic mt-2 text-gray-900 dark:text-white">
-            <p>
-              "Flowbite is just awesome. It contains tons of predesigned
-              components and pages starting from login screen to complex
-              dashboard. Perfect choice for your next SaaS application."
-            </p>
+            <p>{props.address}</p>
           </blockquote>
         </div>
       </a>

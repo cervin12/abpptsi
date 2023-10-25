@@ -1,8 +1,20 @@
 import React from 'react'
 import HorizontalCard from '../Elements/horizontalCard'
 import Nav from '../section/nav'
+import axios from 'axios'
+import { useState, useEffect } from "react";
 
 export default function Institutes() {
+  const [institutes, setInstitutes] = useState(null);
+
+  useEffect(() => {
+    axios.get('http://localhost:3001/univ')
+    .then((res)=>{
+        setData([...res.data])
+        console.log(res)
+    })
+    .catch((e)=> console.log(e.message))
+},[])
   return (
     <>  
         <Nav/>
