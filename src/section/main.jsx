@@ -4,7 +4,7 @@ import React from "react";
 export default function Main() {
   return (
     <>
-      <section data-aos="fade-up" className="bg-white mt-10 w-full dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
+      <section className="bg-white mt-10 w-full dark:bg-gray-900 bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern.svg')] dark:bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/hero-pattern-dark.svg')]">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
           <a
             href="/"
@@ -12,7 +12,7 @@ export default function Main() {
           >
             <span className="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">
               New
-            </span>{" "}
+            </span>
             <span className="text-sm font-medium">
               Jumbotron component was launched! See what's new
             </span>
