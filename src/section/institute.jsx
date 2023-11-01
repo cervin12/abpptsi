@@ -14,11 +14,11 @@ export default function Institute() {
       </div>
       <a
         href="/institutes"
-        class="mt-3 inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+        className="mt-3 inline-flex items-center justify-center p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
       >
-        <span class="w-full">More Universities</span>
+        <span className="w-full">More Universities</span>
         <svg
-          class="w-4 h-4 ml-2"
+          className="w-4 h-4 ml-2"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
